@@ -34,10 +34,9 @@
   align-items: center;
   margin-block-end: 100px;
   border: 2px solid var(--color-main);
+  padding-block: clamp(7.5rem, 6.3462rem + 4.9231vw, 8.5rem);
   font-family: var(--font-accent, monospace);
   background-color: var(--color-background);
-  padding-block: clamp(7.5rem, 6.3462rem + 4.9231vw, 8.5rem);
-  
 }
 
 .header__logo {
@@ -175,9 +174,9 @@
 }
 
 .card__like-button {
+  padding-block-start: 4px;
   min-inline-size: 130px;
   block-size: 38px;
-  padding-block-start: 4px;
 }
 
 .btn-shad:focus {
