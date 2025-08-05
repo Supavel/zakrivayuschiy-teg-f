@@ -224,11 +224,6 @@
   inline-size: 39px;
 }
 
-.main-body,
-.core {
-  fill: none;
-}
-
 .like-icon:hover .core,
 .like-icon:hover .main-body {
   fill: var(--color-main);
