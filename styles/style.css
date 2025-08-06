@@ -322,7 +322,8 @@
   }
 
   .popup {
-    padding: clamp(1.875rem, -2.4886rem + 21.8182vw, 2.625rem);
+    max-inline-size: 341px;
+    padding: 28px 38px;
   }
 
   .floppy {
